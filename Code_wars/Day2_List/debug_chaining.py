@@ -86,10 +86,11 @@ class Dinglemouse2(object):
                 result += " I am {}.".format(self.age)
             elif field == 'sex':
                 result += " I am {}.".format("male" if self.sex == 'M' else "female")
+            else:
+                pass
         return result
 
         
  
-
 mouse = Dinglemouse2("Dingle", 27, "M")
 print(mouse.hello())

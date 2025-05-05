@@ -48,7 +48,4 @@ if __name__ == "__main__":
     print(filter_list_advanced([1,2,'a','b'])) 
     
 
-    # for i in range(5):
-    #     if i == 2:
-    #         pass
-    #     print(i)
+  
